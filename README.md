@@ -18,6 +18,7 @@ The Used Tools & Frameworks:
 
 6-Allure Report.
 
+
 The Executed Test Cases Are Generated in order as Follows:
 
 1-Open the browser.
