@@ -4,7 +4,7 @@ Using Java Programming Language , Playwright and TestNG frameworks , And Allure 
 In this project im testing the main functionalities of the Website.
 
 
-The Used Tools & Frameworks:
+*The Used Tools & Frameworks:
 
 1-PlayWright Framework for web Automation Testing.
 
@@ -19,7 +19,7 @@ The Used Tools & Frameworks:
 6-Allure Report.
 
 
-The Executed Test Cases Are Generated in order as Follows:
+**The Executed Test Cases Are Generated in order as Follows:
 
 1-Open the browser.
 
