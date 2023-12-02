@@ -1,0 +1,61 @@
+{
+  "uuid": "1055ede7-0af4-4aa6-9040-1ce5713d5dd6",
+  "historyId": "bb2a7e2febf1f257674cb4be6809c444",
+  "fullName": "org.example.Runner.login",
+  "labels": [
+    {
+      "name": "package",
+      "value": "org.example.Runner"
+    },
+    {
+      "name": "testClass",
+      "value": "org.example.Runner"
+    },
+    {
+      "name": "testMethod",
+      "value": "login"
+    },
+    {
+      "name": "parentSuite",
+      "value": "All Test Suite"
+    },
+    {
+      "name": "suite",
+      "value": "C:/Users/khaled/Downloads/FirstPlaywrightProject"
+    },
+    {
+      "name": "subSuite",
+      "value": "org.example.Runner"
+    },
+    {
+      "name": "host",
+      "value": "Bugz"
+    },
+    {
+      "name": "thread",
+      "value": "19004@Bugz.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "login",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1701525580532,
+  "stop": 1701525583867
+}

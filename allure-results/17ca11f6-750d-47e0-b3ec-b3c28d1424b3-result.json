@@ -1,0 +1,63 @@
+{
+  "uuid": "17ca11f6-750d-47e0-b3ec-b3c28d1424b3",
+  "historyId": "dc757a037b3b7f20dd78f85583a0bc55",
+  "fullName": "org.example.Runner.register",
+  "labels": [
+    {
+      "name": "package",
+      "value": "org.example.Runner"
+    },
+    {
+      "name": "testClass",
+      "value": "org.example.Runner"
+    },
+    {
+      "name": "testMethod",
+      "value": "register"
+    },
+    {
+      "name": "parentSuite",
+      "value": "All Test Suite"
+    },
+    {
+      "name": "suite",
+      "value": "C:/Users/khaled/Downloads/FirstPlaywrightProject"
+    },
+    {
+      "name": "subSuite",
+      "value": "org.example.Runner"
+    },
+    {
+      "name": "host",
+      "value": "Bugz"
+    },
+    {
+      "name": "thread",
+      "value": "19004@Bugz.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "register",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Locator expected to contain text: Your registration completed\nReceived: null\n\nCall log:\nLocator.expect with timeout 5000ms\nwaiting for locator(\"div[class=\\\"result\\\"]\")",
+    "trace": "org.opentest4j.AssertionFailedError: Locator expected to contain text: Your registration completed\nReceived: null\n\nCall log:\nLocator.expect with timeout 5000ms\nwaiting for locator(\"div[class=\\\"result\\\"]\")\r\n\tat com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:73)\r\n\tat com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:50)\r\n\tat com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:41)\r\n\tat com.microsoft.playwright.impl.LocatorAssertionsImpl.containsText(LocatorAssertionsImpl.java:46)\r\n\tat com.microsoft.playwright.assertions.LocatorAssertions.containsText(LocatorAssertions.java:750)\r\n\tat org.example.Register.registeration(Register.java:61)\r\n\tat org.example.Runner.register(Runner.java:29)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:578)\r\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)\r\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)\r\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)\r\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)\r\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:848)\r\n\tat org.testng.TestRunner.run(TestRunner.java:621)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:443)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:336)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1200)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1114)\r\n\tat org.testng.TestNG.run(TestNG.java:1082)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)\r\n"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1701525573685,
+  "stop": 1701525580464
+}

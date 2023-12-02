@@ -9,7 +9,7 @@ public class PreRequisites {
     static Playwright playwright;
     static BrowserContext browser;
     String fName = "khaled";
-    String mail = "khaled_omar205@hotmail.com";
+    String mail = "khaled_omar208@hotmail.com";
     String passWord = "password";
     String friendMail = "anyone@gmail.com";
 
