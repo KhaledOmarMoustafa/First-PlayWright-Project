@@ -1,0 +1,43 @@
+{
+  "uuid": "e4cee082-1a50-4ec4-b025-2dad9e58161e",
+  "name": "C:/Users/khaled/Downloads/FirstPlaywrightProject",
+  "children": [
+    "4265d988-3bc0-40ea-b6a8-fbde1c599feb",
+    "f08c22e9-2ee7-4916-9e89-9450abab898f",
+    "50626216-4f77-4217-899e-5a1ca8a2b2ab",
+    "827c3674-32c0-4747-bdf6-9b2e3576d4c7",
+    "d956cee2-15e1-4212-86df-6cebe3860df0",
+    "4939aabc-5b72-4d32-b54c-7940399c3608",
+    "7f05b36d-43eb-4383-8d74-7fbe3b8b8862",
+    "513f2065-29ca-4b58-8395-ec6079d391c8",
+    "03f1ff85-c558-4c44-a205-1c498a609a6b"
+  ],
+  "befores": [
+    {
+      "name": "openBrowser",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1701639766442,
+      "stop": 1701639774313
+    }
+  ],
+  "afters": [
+    {
+      "name": "closeBrowser",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1701639826083,
+      "stop": 1701639826490
+    }
+  ],
+  "start": 1701639766428,
+  "stop": 1701639826490
+}

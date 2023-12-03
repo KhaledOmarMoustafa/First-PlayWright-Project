@@ -1,0 +1,63 @@
+{
+  "uuid": "b9e4adc8-8cbe-42a5-9032-888ce2e0f1f0",
+  "historyId": "8deb4c3426b479dedac6d69300c804b",
+  "fullName": "org.example.Runner.searchProducts",
+  "labels": [
+    {
+      "name": "package",
+      "value": "org.example.Runner"
+    },
+    {
+      "name": "testClass",
+      "value": "org.example.Runner"
+    },
+    {
+      "name": "testMethod",
+      "value": "searchProducts"
+    },
+    {
+      "name": "parentSuite",
+      "value": "All Test Suite"
+    },
+    {
+      "name": "suite",
+      "value": "C:/Users/khaled/Downloads/FirstPlaywrightProject"
+    },
+    {
+      "name": "subSuite",
+      "value": "org.example.Runner"
+    },
+    {
+      "name": "host",
+      "value": "Bugz"
+    },
+    {
+      "name": "thread",
+      "value": "29472@Bugz.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "searchProducts",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Error {\n  message='Target page, context or browser has been closed\n  name='Error\n  stack='Error: Target page, context or browser has been closed\n    at DispatcherConnection.dispatch (C:\\Users\\khaled\\AppData\\Local\\Temp\\playwright-java-5201099617961534823\\package\\lib\\server\\dispatchers\\dispatcher.js:260:49)\n    at transport.onmessage (C:\\Users\\khaled\\AppData\\Local\\Temp\\playwright-java-5201099617961534823\\package\\lib\\cli\\driver.js:52:57)\n    at Immediate._onImmediate (C:\\Users\\khaled\\AppData\\Local\\Temp\\playwright-java-5201099617961534823\\package\\lib\\protocol\\transport.js:77:34)\n    at process.processImmediate (node:internal/timers:476:21)\n}",
+    "trace": "com.microsoft.playwright.PlaywrightException: Error {\n  message='Target page, context or browser has been closed\n  name='Error\n  stack='Error: Target page, context or browser has been closed\n    at DispatcherConnection.dispatch (C:\\Users\\khaled\\AppData\\Local\\Temp\\playwright-java-5201099617961534823\\package\\lib\\server\\dispatchers\\dispatcher.js:260:49)\n    at transport.onmessage (C:\\Users\\khaled\\AppData\\Local\\Temp\\playwright-java-5201099617961534823\\package\\lib\\cli\\driver.js:52:57)\n    at Immediate._onImmediate (C:\\Users\\khaled\\AppData\\Local\\Temp\\playwright-java-5201099617961534823\\package\\lib\\protocol\\transport.js:77:34)\n    at process.processImmediate (node:internal/timers:476:21)\n}\r\n\tat com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)\r\n\tat com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)\r\n\tat com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:126)\r\n\tat com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)\r\n\tat com.microsoft.playwright.impl.FrameImpl.fillImpl(FrameImpl.java:335)\r\n\tat com.microsoft.playwright.impl.FrameImpl.lambda$fill$14(FrameImpl.java:325)\r\n\tat com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)\r\n\tat com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)\r\n\tat com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)\r\n\tat com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)\r\n\tat com.microsoft.playwright.impl.FrameImpl.fill(FrameImpl.java:325)\r\n\tat com.microsoft.playwright.impl.LocatorImpl.fill(LocatorImpl.java:210)\r\n\tat com.microsoft.playwright.Locator.fill(Locator.java:2896)\r\n\tat org.example.SearchProducts.searchForProducts(SearchProducts.java:12)\r\n\tat org.example.Runner.searchProducts(Runner.java:63)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:578)\r\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)\r\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)\r\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)\r\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)\r\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:848)\r\n\tat org.testng.TestRunner.run(TestRunner.java:621)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:443)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:336)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1200)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1114)\r\n\tat org.testng.TestNG.run(TestNG.java:1082)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)\r\nCaused by: com.microsoft.playwright.impl.DriverException: Error {\n  message='Target page, context or browser has been closed\n  name='Error\n  stack='Error: Target page, context or browser has been closed\n    at DispatcherConnection.dispatch (C:\\Users\\khaled\\AppData\\Local\\Temp\\playwright-java-5201099617961534823\\package\\lib\\server\\dispatchers\\dispatcher.js:260:49)\n    at transport.onmessage (C:\\Users\\khaled\\AppData\\Local\\Temp\\playwright-java-5201099617961534823\\package\\lib\\cli\\driver.js:52:57)\n    at Immediate._onImmediate (C:\\Users\\khaled\\AppData\\Local\\Temp\\playwright-java-5201099617961534823\\package\\lib\\protocol\\transport.js:77:34)\n    at process.processImmediate (node:internal/timers:476:21)\n}\r\n\tat com.microsoft.playwright.impl.Connection.dispatch(Connection.java:226)\r\n\tat com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:206)\r\n\tat com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)\r\n\t... 38 more\r\n"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1701639752084,
+  "stop": 1701639752087
+}
